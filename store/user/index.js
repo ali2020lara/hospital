@@ -21,17 +21,14 @@ export const actions =  {
   addUser(ctx, data) {
     return this.$axios.post('https://hospital-99f23-default-rtdb.firebaseio.com/users.json',data)
       .then(res=>{
-        console.log('set',res)
         return Promise.resolve(res)
       }).catch(err=>{
         return Promise.reject(err)
       })
   },
   deleteUser(ctx, userId) {
-    console.log('dddd',userId)
     return this.$axios.delete(`https://hospital-99f23-default-rtdb.firebaseio.com/users/${userId}.json`)
       .then(res=>{
-        console.log('userId00',res)
         return Promise.resolve(res)
       }).catch(err=>{
         return Promise.reject(err)

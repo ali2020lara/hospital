@@ -1,6 +1,5 @@
 <template>
   <div class="panel-page__header">
-
     <h2>داشبورد</h2>
   </div>
 </template>
