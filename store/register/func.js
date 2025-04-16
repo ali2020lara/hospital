@@ -1,9 +1,7 @@
 const isLogin = (username)=> {
-    if (username) {
-        // test 10
+    if (username === 'reza' || username === 'ali') {
         return true;
     } else {
         return false;
     }
 }
-//test 2
