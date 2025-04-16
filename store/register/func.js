@@ -1,9 +1,3 @@
 const isLogin = (username)=> {
-    if (username) {
-        // test 10
-        return true;
-    } else {
-        return false;
-    }
+    return true;
 }
-//test 2
