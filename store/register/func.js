@@ -19,3 +19,10 @@ const own = (username)=> {
         return false;
     }
 }
+const test2 = (username)=> {
+    if (username === 'reza' || username === 'ali') {
+        return true;
+    } else {
+        return false;
+    }
+}
