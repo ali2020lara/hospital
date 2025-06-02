@@ -33,7 +33,10 @@ export const actions =  {
       }).catch(err=>{
         return Promise.reject(err)
       })
-  }
+  },
+    likePost(ctx, userId) {
+    return false
+  },
 }
 export const getters =  {
   getUsers(state) {

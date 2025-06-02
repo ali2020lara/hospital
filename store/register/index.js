@@ -1,2 +1,4 @@
 // test commit git
-const test = 'test'
+export const getUser = ()=>{
+    return true
+}
