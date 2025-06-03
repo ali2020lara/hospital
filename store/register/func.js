@@ -1,25 +1,25 @@
-const isLogin = (username)=> {
+export const isLogin = (username)=> {
     if (username === 'reza' || username === 'ali') {
         return true;
     } else {
         return false;
     }
 }
-const register = (username)=> {
+export const register = (username)=> {
     if (username === 'reza' || username === 'ali') {
         return true;
     } else {
         return false;
     }
 }
-const own = (username)=> {
+export const own = (username)=> {
     if (username === 'reza' || username === 'ali') {
         return true;
     } else {
         return false;
     }
 }
-const test2 = (username)=> {
+export const test2 = (username)=> {
     if (username === 'reza' || username === 'ali') {
         return true;
     } else {
